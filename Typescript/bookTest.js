@@ -1,8 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var Book_1 = require("./Book");
+let Book_1 = require("./Book");
+
 //COMPROBACIÓN
-var myBook = new Book_1.Book("Introducción a Javascript", 233, "2344433-BC23333", "Joseph Smith", "Now Editions");
+let myBook = new Book_1.Book("Introducción a Javascript", 233, "2344433-BC23333", "Joseph Smith", "Now Editions");
 console.log(myBook.getTitle());
 console.log(myBook.getnPages());
 console.log(myBook.getIsbn());

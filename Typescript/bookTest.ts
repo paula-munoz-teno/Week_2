@@ -9,8 +9,6 @@ console.log(myBook.getAuthor());
 console.log(myBook.getEditorial());
 
 
-
-
 (myBook.setTitle("Un verso"));
 (myBook.setnPages(400));
 (myBook.setIsbn("2322233-BC23333"));
