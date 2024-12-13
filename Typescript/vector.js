@@ -5,7 +5,7 @@ var Vector = /** @class */ (function () {
     // Constructor
     function Vector(n, k) {
         this.elements = [];
-        for (var i = 0; i < n; i++) {
+        for (let i = 0; i < n; i++) {
             this.elements.push(Math.floor(Math.random() * (k + 1)));
         }
     }
@@ -52,5 +52,5 @@ var Vector = /** @class */ (function () {
         return new Vector(resultElements.length, Math.max.apply(Math, resultElements)); // Crear un nuevo vector con el producto
     };
     return Vector;
-}());
-exports.Vector = Vector;
+});
+
