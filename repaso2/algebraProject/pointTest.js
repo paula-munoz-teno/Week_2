@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var point_1 = require("./point");
+var coordenada = new point_1.Point(3, 4);
+var coordenada2 = new point_1.Point(4, 4);
+console.log(coordenada.getX());
+console.log(coordenada.getY());
+(coordenada.setnX(5));
+(coordenada.setnY(8));
+console.log(coordenada.getX());
+console.log(coordenada.getY());
+console.log(coordenada.toString());
+console.log(coordenada.distanceToOrigin());
+console.log(coordenada.calculateDistance((coordenada2)));
+console.log(coordenada.calculateQuadrant());
